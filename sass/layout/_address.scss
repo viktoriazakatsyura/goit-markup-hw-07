@@ -1,0 +1,19 @@
+.address {
+    margin-left: auto;
+}
+.address__group {
+    display: flex;
+    gap: 50px;
+}
+.address__link {
+    font-style: normal;
+    text-decoration: none;
+    color: var(--main-color-grey);
+    display: flex;
+    align-items: center;
+    transition:  color var(--timing-function);
+}
+.address__icon {
+    fill: currentColor;
+    margin-right: 10px;
+}
